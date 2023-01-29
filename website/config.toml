@@ -1,0 +1,66 @@
+baseURL = "https://bnaard.github.io/"
+name = "About"
+weight = 2
+languageCode = 'en-us'
+defaultcontentlanguage = "en"
+title = "Bnaard's Personal Site"
+theme = "hugo-coder"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = ""
+
+[params]
+  author = "Bnaard"
+  info = "Change Leader. Cloud Expert."
+  description = "Bnaard's personal website"
+  keywords = "blog,change,cloud,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/bnaard/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-gitlab fa-2x"
+    weight = 2
+    url = "www.linkedin.com/in/bege"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
