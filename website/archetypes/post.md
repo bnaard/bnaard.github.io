@@ -6,4 +6,5 @@ image:
 author:
 tags:
 categories:
+short: 
 ---

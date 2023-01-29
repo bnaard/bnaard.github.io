@@ -1,0 +1,9 @@
+<li>
+    <div>
+        <h2><a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a></h2>
+        <div class="post-content">
+            <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006"  ) }} &nbsp </span>
+            {{ .Summary }}{{ if .Truncated }}<a href="{{ .RelPermalink }}">&nbsp Read More…</a>{{end}}
+        </div>
+    </div>
+</li>
