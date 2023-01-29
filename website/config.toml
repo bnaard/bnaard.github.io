@@ -51,7 +51,7 @@ disqusShortname = ""
     url = "https://github.com/bnaard/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-gitlab fa-2x"
+    icon = "fa fa-linkedin fa-2x"
     weight = 2
     url = "www.linkedin.com/in/bege"
 
@@ -59,7 +59,7 @@ disqusShortname = ""
 [[menu.main]]
   name = "Blog"
   weight = 1
-  url  = "posts/"
+  url  = "blog/"
 [[menu.main]]
   name = "About"
   weight = 2
